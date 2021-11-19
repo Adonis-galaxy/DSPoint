@@ -1,3 +1,4 @@
 # DSPoint
 Official pytorch implementation of "DSPoint: Dual-scale Point Cloud Recognition with High-frequency Fusion"
-Coming soon, as soon as I finish all ddl, 2333. 
+
+Coming soon, as soon as I finish all ddl, too busy these days, 2333. 
