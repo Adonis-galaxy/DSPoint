@@ -1,0 +1,4 @@
+scikit-learn
+h5py
+timm
+ninja

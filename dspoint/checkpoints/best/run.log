@@ -1,0 +1,753 @@
+Namespace(L=10, batch_size=32, dataset='modelnet40', debug=False, drop_path_rate=0, epochs=250, eval=False, exp_name='pc_dsnet_4_both_hff_2', lr=0.001, model_path='', momentum=0.9, num_points=1024, test_batch_size=32)
+Using GPU : 0 from 1 devices
+Train 0, loss: 2.63, train acc: 45.69%, train avg acc: 26.95%
+Test 0, loss: 2.50, test acc: 48.46%, test avg acc: 36.74%
+Epoch Time: 79 s
+Train 1, loss: 2.22, train acc: 62.41%, train avg acc: 46.23%
+Test 1, loss: 2.20, test acc: 60.17%, test avg acc: 51.22%
+Epoch Time: 81 s
+Train 2, loss: 2.09, train acc: 68.14%, train avg acc: 53.05%
+Test 2, loss: 1.98, test acc: 72.24%, test avg acc: 62.21%
+Epoch Time: 80 s
+Train 3, loss: 2.01, train acc: 71.43%, train avg acc: 57.71%
+Test 3, loss: 1.97, test acc: 72.04%, test avg acc: 61.02%
+Epoch Time: 80 s
+Train 4, loss: 1.95, train acc: 73.75%, train avg acc: 60.84%
+Test 4, loss: 1.91, test acc: 75.77%, test avg acc: 65.98%
+Epoch Time: 79 s
+Train 5, loss: 1.91, train acc: 76.31%, train avg acc: 64.47%
+Test 5, loss: 1.82, test acc: 78.48%, test avg acc: 70.94%
+Epoch Time: 80 s
+Train 6, loss: 1.87, train acc: 77.52%, train avg acc: 66.09%
+Test 6, loss: 1.79, test acc: 81.60%, test avg acc: 73.44%
+Epoch Time: 80 s
+Train 7, loss: 1.85, train acc: 78.44%, train avg acc: 67.59%
+Test 7, loss: 1.73, test acc: 82.66%, test avg acc: 73.79%
+Epoch Time: 79 s
+Train 8, loss: 1.84, train acc: 78.45%, train avg acc: 67.90%
+Test 8, loss: 1.79, test acc: 80.43%, test avg acc: 70.90%
+Epoch Time: 81 s
+Train 9, loss: 1.82, train acc: 80.55%, train avg acc: 71.03%
+Test 9, loss: 1.71, test acc: 82.90%, test avg acc: 77.19%
+Epoch Time: 79 s
+Train 10, loss: 1.80, train acc: 81.19%, train avg acc: 71.88%
+Test 10, loss: 1.76, test acc: 81.65%, test avg acc: 73.57%
+Epoch Time: 80 s
+Train 11, loss: 1.78, train acc: 81.61%, train avg acc: 72.45%
+Test 11, loss: 1.70, test acc: 83.63%, test avg acc: 75.82%
+Epoch Time: 80 s
+Train 12, loss: 1.77, train acc: 82.16%, train avg acc: 73.22%
+Test 12, loss: 1.71, test acc: 83.23%, test avg acc: 77.92%
+Epoch Time: 82 s
+Train 13, loss: 1.76, train acc: 82.63%, train avg acc: 73.72%
+Test 13, loss: 1.67, test acc: 85.33%, test avg acc: 77.37%
+Epoch Time: 81 s
+Train 14, loss: 1.75, train acc: 82.83%, train avg acc: 74.35%
+Test 14, loss: 1.66, test acc: 85.66%, test avg acc: 80.27%
+Epoch Time: 81 s
+Train 15, loss: 1.74, train acc: 83.15%, train avg acc: 74.99%
+Test 15, loss: 1.64, test acc: 85.94%, test avg acc: 77.73%
+Epoch Time: 80 s
+Train 16, loss: 1.74, train acc: 83.43%, train avg acc: 74.89%
+Test 16, loss: 1.70, test acc: 84.20%, test avg acc: 78.91%
+Epoch Time: 81 s
+Train 17, loss: 1.72, train acc: 84.12%, train avg acc: 76.24%
+Test 17, loss: 1.72, test acc: 84.40%, test avg acc: 80.23%
+Epoch Time: 80 s
+Train 18, loss: 1.71, train acc: 84.70%, train avg acc: 77.23%
+Test 18, loss: 1.63, test acc: 86.10%, test avg acc: 79.53%
+Epoch Time: 82 s
+Train 19, loss: 1.70, train acc: 85.13%, train avg acc: 77.88%
+Test 19, loss: 1.66, test acc: 84.44%, test avg acc: 81.13%
+Epoch Time: 81 s
+Train 20, loss: 1.70, train acc: 85.33%, train avg acc: 77.84%
+Test 20, loss: 1.66, test acc: 86.22%, test avg acc: 79.16%
+Epoch Time: 80 s
+Train 21, loss: 1.70, train acc: 85.09%, train avg acc: 78.06%
+Test 21, loss: 1.64, test acc: 86.71%, test avg acc: 82.06%
+Epoch Time: 80 s
+Train 22, loss: 1.69, train acc: 85.71%, train avg acc: 78.65%
+Test 22, loss: 1.61, test acc: 87.20%, test avg acc: 80.19%
+Epoch Time: 79 s
+Train 23, loss: 1.69, train acc: 85.63%, train avg acc: 78.40%
+Test 23, loss: 1.63, test acc: 86.51%, test avg acc: 79.55%
+Epoch Time: 80 s
+Train 24, loss: 1.68, train acc: 85.72%, train avg acc: 78.54%
+Test 24, loss: 1.61, test acc: 87.40%, test avg acc: 82.30%
+Epoch Time: 79 s
+Train 25, loss: 1.68, train acc: 86.26%, train avg acc: 79.53%
+Test 25, loss: 1.60, test acc: 87.52%, test avg acc: 81.26%
+Epoch Time: 79 s
+Train 26, loss: 1.67, train acc: 86.49%, train avg acc: 79.90%
+Test 26, loss: 1.59, test acc: 88.29%, test avg acc: 81.94%
+Epoch Time: 80 s
+Train 27, loss: 1.67, train acc: 86.18%, train avg acc: 79.10%
+Test 27, loss: 1.66, test acc: 86.51%, test avg acc: 80.29%
+Epoch Time: 79 s
+Train 28, loss: 1.66, train acc: 86.76%, train avg acc: 80.25%
+Test 28, loss: 1.64, test acc: 87.32%, test avg acc: 81.58%
+Epoch Time: 81 s
+Train 29, loss: 1.66, train acc: 86.66%, train avg acc: 79.86%
+Test 29, loss: 1.60, test acc: 88.13%, test avg acc: 83.08%
+Epoch Time: 79 s
+Train 30, loss: 1.65, train acc: 87.10%, train avg acc: 80.44%
+Test 30, loss: 1.60, test acc: 88.29%, test avg acc: 81.84%
+Epoch Time: 81 s
+Train 31, loss: 1.66, train acc: 87.16%, train avg acc: 80.51%
+Test 31, loss: 1.63, test acc: 88.01%, test avg acc: 83.11%
+Epoch Time: 80 s
+Train 32, loss: 1.65, train acc: 86.93%, train avg acc: 80.28%
+Test 32, loss: 1.60, test acc: 87.28%, test avg acc: 82.11%
+Epoch Time: 79 s
+Train 33, loss: 1.64, train acc: 87.97%, train avg acc: 81.54%
+Test 33, loss: 1.59, test acc: 89.14%, test avg acc: 84.57%
+Epoch Time: 80 s
+Train 34, loss: 1.64, train acc: 87.72%, train avg acc: 81.69%
+Test 34, loss: 1.61, test acc: 88.86%, test avg acc: 83.32%
+Epoch Time: 80 s
+Train 35, loss: 1.64, train acc: 87.58%, train avg acc: 81.19%
+Test 35, loss: 1.57, test acc: 90.36%, test avg acc: 84.58%
+Epoch Time: 79 s
+Train 36, loss: 1.63, train acc: 87.75%, train avg acc: 81.01%
+Test 36, loss: 1.58, test acc: 88.33%, test avg acc: 83.52%
+Epoch Time: 80 s
+Train 37, loss: 1.63, train acc: 88.41%, train avg acc: 82.28%
+Test 37, loss: 1.60, test acc: 88.29%, test avg acc: 83.35%
+Epoch Time: 80 s
+Train 38, loss: 1.63, train acc: 88.09%, train avg acc: 81.73%
+Test 38, loss: 1.60, test acc: 89.10%, test avg acc: 84.55%
+Epoch Time: 81 s
+Train 39, loss: 1.64, train acc: 87.30%, train avg acc: 80.90%
+Test 39, loss: 1.62, test acc: 88.74%, test avg acc: 83.33%
+Epoch Time: 81 s
+Train 40, loss: 1.62, train acc: 88.30%, train avg acc: 82.64%
+Test 40, loss: 1.64, test acc: 86.75%, test avg acc: 82.92%
+Epoch Time: 79 s
+Train 41, loss: 1.62, train acc: 88.46%, train avg acc: 82.62%
+Test 41, loss: 1.61, test acc: 87.48%, test avg acc: 83.02%
+Epoch Time: 81 s
+Train 42, loss: 1.61, train acc: 89.09%, train avg acc: 83.42%
+Test 42, loss: 1.57, test acc: 89.47%, test avg acc: 84.33%
+Epoch Time: 79 s
+Train 43, loss: 1.62, train acc: 88.32%, train avg acc: 82.47%
+Test 43, loss: 1.60, test acc: 87.80%, test avg acc: 83.89%
+Epoch Time: 79 s
+Train 44, loss: 1.62, train acc: 88.38%, train avg acc: 82.63%
+Test 44, loss: 1.59, test acc: 88.65%, test avg acc: 82.48%
+Epoch Time: 80 s
+Train 45, loss: 1.62, train acc: 88.73%, train avg acc: 82.91%
+Test 45, loss: 1.55, test acc: 90.11%, test avg acc: 84.40%
+Epoch Time: 80 s
+Train 46, loss: 1.62, train acc: 88.44%, train avg acc: 82.24%
+Test 46, loss: 1.60, test acc: 88.29%, test avg acc: 83.03%
+Epoch Time: 79 s
+Train 47, loss: 1.61, train acc: 88.80%, train avg acc: 83.17%
+Test 47, loss: 1.60, test acc: 88.29%, test avg acc: 83.87%
+Epoch Time: 80 s
+Train 48, loss: 1.62, train acc: 88.66%, train avg acc: 82.95%
+Test 48, loss: 1.58, test acc: 88.33%, test avg acc: 85.65%
+Epoch Time: 80 s
+Train 49, loss: 1.60, train acc: 88.99%, train avg acc: 83.30%
+Test 49, loss: 1.59, test acc: 88.25%, test avg acc: 83.66%
+Epoch Time: 79 s
+Train 50, loss: 1.60, train acc: 89.27%, train avg acc: 83.73%
+Test 50, loss: 1.59, test acc: 88.82%, test avg acc: 85.36%
+Epoch Time: 80 s
+Train 51, loss: 1.60, train acc: 89.01%, train avg acc: 83.45%
+Test 51, loss: 1.56, test acc: 90.76%, test avg acc: 85.52%
+Epoch Time: 79 s
+Train 52, loss: 1.60, train acc: 89.52%, train avg acc: 84.05%
+Test 52, loss: 1.57, test acc: 89.42%, test avg acc: 84.58%
+Epoch Time: 81 s
+Train 53, loss: 1.60, train acc: 89.18%, train avg acc: 83.97%
+Test 53, loss: 1.56, test acc: 89.34%, test avg acc: 85.53%
+Epoch Time: 79 s
+Train 54, loss: 1.60, train acc: 89.40%, train avg acc: 83.99%
+Test 54, loss: 1.55, test acc: 89.34%, test avg acc: 85.26%
+Epoch Time: 79 s
+Train 55, loss: 1.60, train acc: 89.21%, train avg acc: 83.66%
+Test 55, loss: 1.53, test acc: 90.03%, test avg acc: 83.82%
+Epoch Time: 80 s
+Train 56, loss: 1.60, train acc: 89.50%, train avg acc: 84.22%
+Test 56, loss: 1.57, test acc: 89.22%, test avg acc: 84.48%
+Epoch Time: 81 s
+Train 57, loss: 1.60, train acc: 89.66%, train avg acc: 84.54%
+Test 57, loss: 1.56, test acc: 89.71%, test avg acc: 84.62%
+Epoch Time: 80 s
+Train 58, loss: 1.60, train acc: 89.22%, train avg acc: 83.60%
+Test 58, loss: 1.58, test acc: 89.14%, test avg acc: 84.43%
+Epoch Time: 79 s
+Train 59, loss: 1.59, train acc: 89.96%, train avg acc: 84.81%
+Test 59, loss: 1.56, test acc: 88.98%, test avg acc: 83.89%
+Epoch Time: 81 s
+Train 60, loss: 1.58, train acc: 89.96%, train avg acc: 84.82%
+Test 60, loss: 1.58, test acc: 88.17%, test avg acc: 82.53%
+Epoch Time: 79 s
+Train 61, loss: 1.59, train acc: 90.07%, train avg acc: 84.97%
+Test 61, loss: 1.56, test acc: 89.22%, test avg acc: 85.15%
+Epoch Time: 80 s
+Train 62, loss: 1.59, train acc: 89.83%, train avg acc: 84.51%
+Test 62, loss: 1.56, test acc: 89.34%, test avg acc: 84.74%
+Epoch Time: 80 s
+Train 63, loss: 1.58, train acc: 89.96%, train avg acc: 84.51%
+Test 63, loss: 1.58, test acc: 88.17%, test avg acc: 85.52%
+Epoch Time: 79 s
+Train 64, loss: 1.59, train acc: 90.01%, train avg acc: 84.86%
+Test 64, loss: 1.54, test acc: 90.07%, test avg acc: 85.94%
+Epoch Time: 79 s
+Train 65, loss: 1.59, train acc: 89.70%, train avg acc: 84.53%
+Test 65, loss: 1.54, test acc: 90.56%, test avg acc: 86.36%
+Epoch Time: 82 s
+Train 66, loss: 1.58, train acc: 90.12%, train avg acc: 85.18%
+Test 66, loss: 1.54, test acc: 91.37%, test avg acc: 85.97%
+Epoch Time: 79 s
+Train 67, loss: 1.59, train acc: 90.17%, train avg acc: 84.73%
+Test 67, loss: 1.53, test acc: 91.53%, test avg acc: 86.96%
+Epoch Time: 81 s
+Train 68, loss: 1.58, train acc: 90.32%, train avg acc: 85.45%
+Test 68, loss: 1.57, test acc: 89.83%, test avg acc: 85.58%
+Epoch Time: 79 s
+Train 69, loss: 1.58, train acc: 89.69%, train avg acc: 84.44%
+Test 69, loss: 1.55, test acc: 90.24%, test avg acc: 86.72%
+Epoch Time: 80 s
+Train 70, loss: 1.58, train acc: 90.13%, train avg acc: 84.83%
+Test 70, loss: 1.54, test acc: 90.36%, test avg acc: 85.71%
+Epoch Time: 79 s
+Train 71, loss: 1.58, train acc: 90.33%, train avg acc: 85.45%
+Test 71, loss: 1.56, test acc: 88.78%, test avg acc: 84.10%
+Epoch Time: 81 s
+Train 72, loss: 1.58, train acc: 90.17%, train avg acc: 84.78%
+Test 72, loss: 1.56, test acc: 90.11%, test avg acc: 87.35%
+Epoch Time: 80 s
+Train 73, loss: 1.58, train acc: 90.01%, train avg acc: 85.06%
+Test 73, loss: 1.54, test acc: 91.13%, test avg acc: 86.01%
+Epoch Time: 82 s
+Train 74, loss: 1.57, train acc: 90.57%, train avg acc: 85.51%
+Test 74, loss: 1.55, test acc: 89.95%, test avg acc: 87.05%
+Epoch Time: 80 s
+Train 75, loss: 1.57, train acc: 90.30%, train avg acc: 85.57%
+Test 75, loss: 1.56, test acc: 89.22%, test avg acc: 83.98%
+Epoch Time: 82 s
+Train 76, loss: 1.58, train acc: 90.22%, train avg acc: 85.04%
+Test 76, loss: 1.54, test acc: 90.07%, test avg acc: 85.99%
+Epoch Time: 80 s
+Train 77, loss: 1.57, train acc: 90.52%, train avg acc: 85.67%
+Test 77, loss: 1.54, test acc: 90.80%, test avg acc: 87.51%
+Epoch Time: 80 s
+Train 78, loss: 1.57, train acc: 90.50%, train avg acc: 85.57%
+Test 78, loss: 1.55, test acc: 89.75%, test avg acc: 86.28%
+Epoch Time: 92 s
+Train 79, loss: 1.58, train acc: 90.25%, train avg acc: 85.34%
+Test 79, loss: 1.54, test acc: 91.29%, test avg acc: 87.24%
+Epoch Time: 94 s
+Train 80, loss: 1.57, train acc: 90.52%, train avg acc: 85.31%
+Test 80, loss: 1.53, test acc: 90.80%, test avg acc: 86.22%
+Epoch Time: 94 s
+Train 81, loss: 1.57, train acc: 90.21%, train avg acc: 84.98%
+Test 81, loss: 1.54, test acc: 91.05%, test avg acc: 87.27%
+Epoch Time: 87 s
+Train 82, loss: 1.56, train acc: 90.95%, train avg acc: 86.48%
+Test 82, loss: 1.56, test acc: 89.26%, test avg acc: 85.93%
+Epoch Time: 79 s
+Train 83, loss: 1.56, train acc: 90.68%, train avg acc: 86.02%
+Test 83, loss: 1.56, test acc: 90.92%, test avg acc: 87.48%
+Epoch Time: 80 s
+Train 84, loss: 1.56, train acc: 91.11%, train avg acc: 86.62%
+Test 84, loss: 1.58, test acc: 89.51%, test avg acc: 85.78%
+Epoch Time: 81 s
+Train 85, loss: 1.56, train acc: 91.23%, train avg acc: 86.86%
+Test 85, loss: 1.52, test acc: 91.21%, test avg acc: 87.42%
+Epoch Time: 79 s
+Train 86, loss: 1.56, train acc: 90.65%, train avg acc: 85.96%
+Test 86, loss: 1.55, test acc: 90.40%, test avg acc: 85.96%
+Epoch Time: 81 s
+Train 87, loss: 1.56, train acc: 90.78%, train avg acc: 85.91%
+Test 87, loss: 1.55, test acc: 90.15%, test avg acc: 86.42%
+Epoch Time: 81 s
+Train 88, loss: 1.57, train acc: 90.62%, train avg acc: 85.63%
+Test 88, loss: 1.52, test acc: 91.05%, test avg acc: 85.94%
+Epoch Time: 80 s
+Train 89, loss: 1.57, train acc: 90.90%, train avg acc: 86.47%
+Test 89, loss: 1.59, test acc: 89.47%, test avg acc: 86.04%
+Epoch Time: 81 s
+Train 90, loss: 1.57, train acc: 90.70%, train avg acc: 85.93%
+Test 90, loss: 1.53, test acc: 90.48%, test avg acc: 87.61%
+Epoch Time: 80 s
+Train 91, loss: 1.56, train acc: 90.92%, train avg acc: 86.06%
+Test 91, loss: 1.57, test acc: 89.18%, test avg acc: 84.82%
+Epoch Time: 80 s
+Train 92, loss: 1.56, train acc: 90.91%, train avg acc: 86.36%
+Test 92, loss: 1.55, test acc: 89.95%, test avg acc: 85.78%
+Epoch Time: 80 s
+Train 93, loss: 1.57, train acc: 90.25%, train avg acc: 85.41%
+Test 93, loss: 1.53, test acc: 91.61%, test avg acc: 87.05%
+Epoch Time: 80 s
+Train 94, loss: 1.56, train acc: 91.16%, train avg acc: 86.72%
+Test 94, loss: 1.55, test acc: 90.76%, test avg acc: 87.16%
+Epoch Time: 81 s
+Train 95, loss: 1.55, train acc: 91.09%, train avg acc: 86.50%
+Test 95, loss: 1.57, test acc: 89.63%, test avg acc: 84.24%
+Epoch Time: 79 s
+Train 96, loss: 1.56, train acc: 90.92%, train avg acc: 86.25%
+Test 96, loss: 1.53, test acc: 90.15%, test avg acc: 87.53%
+Epoch Time: 78 s
+Train 97, loss: 1.55, train acc: 91.00%, train avg acc: 86.27%
+Test 97, loss: 1.52, test acc: 91.09%, test avg acc: 86.94%
+Epoch Time: 81 s
+Train 98, loss: 1.55, train acc: 90.81%, train avg acc: 86.15%
+Test 98, loss: 1.54, test acc: 90.32%, test avg acc: 86.15%
+Epoch Time: 80 s
+Train 99, loss: 1.55, train acc: 91.50%, train avg acc: 86.94%
+Test 99, loss: 1.54, test acc: 89.95%, test avg acc: 87.44%
+Epoch Time: 80 s
+Train 100, loss: 1.55, train acc: 91.00%, train avg acc: 86.38%
+Test 100, loss: 1.54, test acc: 90.68%, test avg acc: 85.62%
+Epoch Time: 79 s
+Train 101, loss: 1.56, train acc: 90.70%, train avg acc: 85.67%
+Test 101, loss: 1.53, test acc: 90.44%, test avg acc: 86.28%
+Epoch Time: 79 s
+Train 102, loss: 1.55, train acc: 91.05%, train avg acc: 86.60%
+Test 102, loss: 1.53, test acc: 90.76%, test avg acc: 86.25%
+Epoch Time: 79 s
+Train 103, loss: 1.55, train acc: 91.35%, train avg acc: 86.53%
+Test 103, loss: 1.53, test acc: 90.88%, test avg acc: 87.44%
+Epoch Time: 80 s
+Train 104, loss: 1.55, train acc: 91.13%, train avg acc: 86.64%
+Test 104, loss: 1.51, test acc: 91.45%, test avg acc: 87.28%
+Epoch Time: 80 s
+Train 105, loss: 1.55, train acc: 91.18%, train avg acc: 86.69%
+Test 105, loss: 1.53, test acc: 91.05%, test avg acc: 87.61%
+Epoch Time: 81 s
+Train 106, loss: 1.55, train acc: 91.18%, train avg acc: 86.61%
+Test 106, loss: 1.53, test acc: 91.45%, test avg acc: 88.35%
+Epoch Time: 79 s
+Train 107, loss: 1.55, train acc: 91.67%, train avg acc: 87.38%
+Test 107, loss: 1.54, test acc: 90.60%, test avg acc: 87.73%
+Epoch Time: 80 s
+Train 108, loss: 1.55, train acc: 91.30%, train avg acc: 86.78%
+Test 108, loss: 1.53, test acc: 90.80%, test avg acc: 86.67%
+Epoch Time: 80 s
+Train 109, loss: 1.54, train acc: 91.77%, train avg acc: 87.46%
+Test 109, loss: 1.52, test acc: 91.37%, test avg acc: 88.02%
+Epoch Time: 80 s
+Train 110, loss: 1.55, train acc: 91.21%, train avg acc: 86.64%
+Test 110, loss: 1.57, test acc: 89.18%, test avg acc: 86.46%
+Epoch Time: 80 s
+Train 111, loss: 1.54, train acc: 91.94%, train avg acc: 87.81%
+Test 111, loss: 1.55, test acc: 89.87%, test avg acc: 87.14%
+Epoch Time: 80 s
+Train 112, loss: 1.55, train acc: 91.17%, train avg acc: 86.76%
+Test 112, loss: 1.54, test acc: 91.09%, test avg acc: 87.47%
+Epoch Time: 80 s
+Train 113, loss: 1.55, train acc: 91.32%, train avg acc: 86.85%
+Test 113, loss: 1.52, test acc: 91.73%, test avg acc: 86.71%
+Epoch Time: 83 s
+Train 114, loss: 1.55, train acc: 91.40%, train avg acc: 86.96%
+Test 114, loss: 1.55, test acc: 89.51%, test avg acc: 86.99%
+Epoch Time: 81 s
+Train 115, loss: 1.54, train acc: 91.61%, train avg acc: 87.18%
+Test 115, loss: 1.52, test acc: 91.00%, test avg acc: 87.26%
+Epoch Time: 80 s
+Train 116, loss: 1.55, train acc: 91.57%, train avg acc: 87.42%
+Test 116, loss: 1.53, test acc: 91.25%, test avg acc: 87.66%
+Epoch Time: 80 s
+Train 117, loss: 1.54, train acc: 91.51%, train avg acc: 87.16%
+Test 117, loss: 1.52, test acc: 90.56%, test avg acc: 87.85%
+Epoch Time: 79 s
+Train 118, loss: 1.55, train acc: 91.02%, train avg acc: 86.46%
+Test 118, loss: 1.52, test acc: 90.84%, test avg acc: 87.36%
+Epoch Time: 79 s
+Train 119, loss: 1.54, train acc: 91.95%, train avg acc: 87.70%
+Test 119, loss: 1.53, test acc: 91.13%, test avg acc: 87.32%
+Epoch Time: 80 s
+Train 120, loss: 1.54, train acc: 91.51%, train avg acc: 87.39%
+Test 120, loss: 1.55, test acc: 89.67%, test avg acc: 86.77%
+Epoch Time: 80 s
+Train 121, loss: 1.52, train acc: 92.27%, train avg acc: 88.30%
+Test 121, loss: 1.48, test acc: 92.06%, test avg acc: 88.10%
+Epoch Time: 80 s
+Train 122, loss: 1.50, train acc: 92.87%, train avg acc: 89.12%
+Test 122, loss: 1.48, test acc: 91.41%, test avg acc: 87.61%
+Epoch Time: 81 s
+Train 123, loss: 1.50, train acc: 93.38%, train avg acc: 90.13%
+Test 123, loss: 1.48, test acc: 91.49%, test avg acc: 87.98%
+Epoch Time: 80 s
+Train 124, loss: 1.50, train acc: 93.53%, train avg acc: 90.08%
+Test 124, loss: 1.48, test acc: 91.94%, test avg acc: 88.23%
+Epoch Time: 81 s
+Train 125, loss: 1.50, train acc: 93.14%, train avg acc: 89.38%
+Test 125, loss: 1.48, test acc: 91.69%, test avg acc: 88.00%
+Epoch Time: 80 s
+Train 126, loss: 1.49, train acc: 93.91%, train avg acc: 90.65%
+Test 126, loss: 1.48, test acc: 91.77%, test avg acc: 87.81%
+Epoch Time: 81 s
+Train 127, loss: 1.49, train acc: 93.40%, train avg acc: 90.19%
+Test 127, loss: 1.48, test acc: 92.75%, test avg acc: 88.99%
+Epoch Time: 79 s
+Train 128, loss: 1.50, train acc: 93.40%, train avg acc: 89.93%
+Test 128, loss: 1.48, test acc: 92.14%, test avg acc: 88.05%
+Epoch Time: 80 s
+Train 129, loss: 1.49, train acc: 93.76%, train avg acc: 90.52%
+Test 129, loss: 1.49, test acc: 91.82%, test avg acc: 87.80%
+Epoch Time: 80 s
+Train 130, loss: 1.49, train acc: 93.46%, train avg acc: 90.12%
+Test 130, loss: 1.49, test acc: 92.34%, test avg acc: 88.63%
+Epoch Time: 81 s
+Train 131, loss: 1.49, train acc: 93.63%, train avg acc: 90.36%
+Test 131, loss: 1.48, test acc: 91.73%, test avg acc: 88.09%
+Epoch Time: 79 s
+Train 132, loss: 1.49, train acc: 93.50%, train avg acc: 90.03%
+Test 132, loss: 1.48, test acc: 92.63%, test avg acc: 88.70%
+Epoch Time: 80 s
+Train 133, loss: 1.49, train acc: 93.75%, train avg acc: 90.79%
+Test 133, loss: 1.50, test acc: 91.77%, test avg acc: 87.43%
+Epoch Time: 81 s
+Train 134, loss: 1.49, train acc: 93.56%, train avg acc: 90.01%
+Test 134, loss: 1.51, test acc: 91.49%, test avg acc: 88.82%
+Epoch Time: 81 s
+Train 135, loss: 1.49, train acc: 93.77%, train avg acc: 90.41%
+Test 135, loss: 1.48, test acc: 92.26%, test avg acc: 88.79%
+Epoch Time: 79 s
+Train 136, loss: 1.48, train acc: 94.14%, train avg acc: 90.98%
+Test 136, loss: 1.49, test acc: 92.38%, test avg acc: 88.70%
+Epoch Time: 79 s
+Train 137, loss: 1.48, train acc: 93.86%, train avg acc: 90.76%
+Test 137, loss: 1.49, test acc: 91.37%, test avg acc: 87.70%
+Epoch Time: 81 s
+Train 138, loss: 1.49, train acc: 93.82%, train avg acc: 90.54%
+Test 138, loss: 1.48, test acc: 91.53%, test avg acc: 88.87%
+Epoch Time: 80 s
+Train 139, loss: 1.48, train acc: 94.27%, train avg acc: 91.14%
+Test 139, loss: 1.47, test acc: 92.54%, test avg acc: 88.64%
+Epoch Time: 81 s
+Train 140, loss: 1.49, train acc: 93.92%, train avg acc: 90.77%
+Test 140, loss: 1.47, test acc: 92.50%, test avg acc: 88.55%
+Epoch Time: 78 s
+Train 141, loss: 1.49, train acc: 94.10%, train avg acc: 91.06%
+Test 141, loss: 1.48, test acc: 92.54%, test avg acc: 89.29%
+Epoch Time: 79 s
+Train 142, loss: 1.48, train acc: 94.11%, train avg acc: 90.84%
+Test 142, loss: 1.48, test acc: 91.94%, test avg acc: 88.43%
+Epoch Time: 80 s
+Train 143, loss: 1.48, train acc: 94.02%, train avg acc: 90.83%
+Test 143, loss: 1.50, test acc: 91.21%, test avg acc: 87.87%
+Epoch Time: 80 s
+Train 144, loss: 1.49, train acc: 93.86%, train avg acc: 90.51%
+Test 144, loss: 1.50, test acc: 90.28%, test avg acc: 84.94%
+Epoch Time: 81 s
+Train 145, loss: 1.49, train acc: 93.87%, train avg acc: 90.63%
+Test 145, loss: 1.49, test acc: 91.05%, test avg acc: 86.89%
+Epoch Time: 79 s
+Train 146, loss: 1.48, train acc: 94.08%, train avg acc: 91.03%
+Test 146, loss: 1.49, test acc: 91.49%, test avg acc: 88.47%
+Epoch Time: 80 s
+Train 147, loss: 1.48, train acc: 94.12%, train avg acc: 91.23%
+Test 147, loss: 1.51, test acc: 90.88%, test avg acc: 87.84%
+Epoch Time: 81 s
+Train 148, loss: 1.48, train acc: 93.84%, train avg acc: 90.83%
+Test 148, loss: 1.49, test acc: 91.13%, test avg acc: 88.72%
+Epoch Time: 79 s
+Train 149, loss: 1.48, train acc: 94.18%, train avg acc: 91.16%
+Test 149, loss: 1.48, test acc: 92.67%, test avg acc: 88.39%
+Epoch Time: 80 s
+Train 150, loss: 1.48, train acc: 94.15%, train avg acc: 91.07%
+Test 150, loss: 1.48, test acc: 92.26%, test avg acc: 89.37%
+Epoch Time: 80 s
+Train 151, loss: 1.48, train acc: 94.71%, train avg acc: 91.98%
+Test 151, loss: 1.49, test acc: 91.86%, test avg acc: 88.31%
+Epoch Time: 79 s
+Train 152, loss: 1.48, train acc: 93.98%, train avg acc: 90.89%
+Test 152, loss: 1.47, test acc: 92.06%, test avg acc: 89.21%
+Epoch Time: 79 s
+Train 153, loss: 1.48, train acc: 93.72%, train avg acc: 90.36%
+Test 153, loss: 1.50, test acc: 91.65%, test avg acc: 87.87%
+Epoch Time: 81 s
+Train 154, loss: 1.48, train acc: 93.88%, train avg acc: 90.81%
+Test 154, loss: 1.48, test acc: 92.71%, test avg acc: 89.18%
+Epoch Time: 81 s
+Train 155, loss: 1.48, train acc: 94.18%, train avg acc: 91.12%
+Test 155, loss: 1.48, test acc: 91.90%, test avg acc: 89.17%
+Epoch Time: 80 s
+Train 156, loss: 1.48, train acc: 93.80%, train avg acc: 90.35%
+Test 156, loss: 1.48, test acc: 92.26%, test avg acc: 88.93%
+Epoch Time: 81 s
+Train 157, loss: 1.48, train acc: 94.22%, train avg acc: 91.19%
+Test 157, loss: 1.48, test acc: 92.75%, test avg acc: 89.34%
+Epoch Time: 80 s
+Train 158, loss: 1.47, train acc: 94.53%, train avg acc: 91.39%
+Test 158, loss: 1.48, test acc: 91.86%, test avg acc: 88.80%
+Epoch Time: 80 s
+Train 159, loss: 1.48, train acc: 94.26%, train avg acc: 91.26%
+Test 159, loss: 1.47, test acc: 92.63%, test avg acc: 88.62%
+Epoch Time: 80 s
+Train 160, loss: 1.48, train acc: 93.99%, train avg acc: 90.69%
+Test 160, loss: 1.48, test acc: 92.67%, test avg acc: 89.91%
+Epoch Time: 80 s
+Train 161, loss: 1.48, train acc: 94.39%, train avg acc: 91.28%
+Test 161, loss: 1.46, test acc: 92.38%, test avg acc: 88.06%
+Epoch Time: 79 s
+Train 162, loss: 1.48, train acc: 94.49%, train avg acc: 91.62%
+Test 162, loss: 1.49, test acc: 91.73%, test avg acc: 88.41%
+Epoch Time: 79 s
+Train 163, loss: 1.48, train acc: 94.25%, train avg acc: 91.33%
+Test 163, loss: 1.51, test acc: 90.64%, test avg acc: 86.76%
+Epoch Time: 79 s
+Train 164, loss: 1.48, train acc: 94.18%, train avg acc: 91.25%
+Test 164, loss: 1.48, test acc: 92.63%, test avg acc: 89.03%
+Epoch Time: 81 s
+Train 165, loss: 1.48, train acc: 94.35%, train avg acc: 91.38%
+Test 165, loss: 1.48, test acc: 92.50%, test avg acc: 89.48%
+Epoch Time: 81 s
+Train 166, loss: 1.48, train acc: 94.44%, train avg acc: 91.64%
+Test 166, loss: 1.50, test acc: 91.05%, test avg acc: 87.71%
+Epoch Time: 80 s
+Train 167, loss: 1.48, train acc: 94.30%, train avg acc: 91.44%
+Test 167, loss: 1.48, test acc: 92.18%, test avg acc: 89.22%
+Epoch Time: 80 s
+Train 168, loss: 1.47, train acc: 94.46%, train avg acc: 91.54%
+Test 168, loss: 1.47, test acc: 92.38%, test avg acc: 89.19%
+Epoch Time: 81 s
+Train 169, loss: 1.48, train acc: 94.22%, train avg acc: 91.27%
+Test 169, loss: 1.49, test acc: 92.42%, test avg acc: 89.45%
+Epoch Time: 80 s
+Train 170, loss: 1.48, train acc: 94.13%, train avg acc: 91.05%
+Test 170, loss: 1.50, test acc: 91.57%, test avg acc: 88.37%
+Epoch Time: 79 s
+Train 171, loss: 1.47, train acc: 94.65%, train avg acc: 91.79%
+Test 171, loss: 1.47, test acc: 92.54%, test avg acc: 88.67%
+Epoch Time: 81 s
+Train 172, loss: 1.47, train acc: 94.41%, train avg acc: 91.73%
+Test 172, loss: 1.49, test acc: 92.67%, test avg acc: 89.83%
+Epoch Time: 80 s
+Train 173, loss: 1.47, train acc: 94.53%, train avg acc: 91.64%
+Test 173, loss: 1.48, test acc: 91.86%, test avg acc: 89.10%
+Epoch Time: 80 s
+Train 174, loss: 1.47, train acc: 94.79%, train avg acc: 92.21%
+Test 174, loss: 1.49, test acc: 90.96%, test avg acc: 87.32%
+Epoch Time: 80 s
+Train 175, loss: 1.47, train acc: 94.44%, train avg acc: 91.53%
+Test 175, loss: 1.49, test acc: 91.77%, test avg acc: 89.73%
+Epoch Time: 81 s
+Train 176, loss: 1.47, train acc: 94.38%, train avg acc: 91.67%
+Test 176, loss: 1.49, test acc: 92.10%, test avg acc: 88.50%
+Epoch Time: 81 s
+Train 177, loss: 1.48, train acc: 94.01%, train avg acc: 90.78%
+Test 177, loss: 1.48, test acc: 91.94%, test avg acc: 88.37%
+Epoch Time: 79 s
+Train 178, loss: 1.47, train acc: 94.43%, train avg acc: 91.79%
+Test 178, loss: 1.48, test acc: 92.30%, test avg acc: 88.17%
+Epoch Time: 81 s
+Train 179, loss: 1.47, train acc: 94.45%, train avg acc: 91.67%
+Test 179, loss: 1.49, test acc: 91.37%, test avg acc: 88.11%
+Epoch Time: 79 s
+Train 180, loss: 1.46, train acc: 94.95%, train avg acc: 92.51%
+Test 180, loss: 1.46, test acc: 92.22%, test avg acc: 88.58%
+Epoch Time: 79 s
+Train 181, loss: 1.45, train acc: 95.16%, train avg acc: 92.65%
+Test 181, loss: 1.47, test acc: 92.26%, test avg acc: 88.89%
+Epoch Time: 80 s
+Train 182, loss: 1.45, train acc: 95.46%, train avg acc: 93.19%
+Test 182, loss: 1.46, test acc: 92.91%, test avg acc: 89.09%
+Epoch Time: 80 s
+Train 183, loss: 1.45, train acc: 95.21%, train avg acc: 93.01%
+Test 183, loss: 1.46, test acc: 92.38%, test avg acc: 88.90%
+Epoch Time: 80 s
+Train 184, loss: 1.45, train acc: 95.07%, train avg acc: 92.53%
+Test 184, loss: 1.46, test acc: 92.38%, test avg acc: 88.83%
+Epoch Time: 80 s
+Train 185, loss: 1.45, train acc: 95.27%, train avg acc: 92.88%
+Test 185, loss: 1.47, test acc: 92.50%, test avg acc: 89.24%
+Epoch Time: 81 s
+Train 186, loss: 1.44, train acc: 95.80%, train avg acc: 93.70%
+Test 186, loss: 1.46, test acc: 93.48%, test avg acc: 90.01%
+Epoch Time: 80 s
+Train 187, loss: 1.44, train acc: 95.34%, train avg acc: 92.88%
+Test 187, loss: 1.46, test acc: 92.95%, test avg acc: 89.38%
+Epoch Time: 80 s
+Train 188, loss: 1.44, train acc: 95.63%, train avg acc: 93.12%
+Test 188, loss: 1.46, test acc: 93.11%, test avg acc: 89.47%
+Epoch Time: 79 s
+Train 189, loss: 1.44, train acc: 95.47%, train avg acc: 93.05%
+Test 189, loss: 1.47, test acc: 92.63%, test avg acc: 89.47%
+Epoch Time: 78 s
+Train 190, loss: 1.44, train acc: 95.71%, train avg acc: 93.69%
+Test 190, loss: 1.47, test acc: 92.42%, test avg acc: 88.52%
+Epoch Time: 81 s
+Train 191, loss: 1.44, train acc: 95.65%, train avg acc: 93.57%
+Test 191, loss: 1.46, test acc: 92.87%, test avg acc: 90.22%
+Epoch Time: 80 s
+Train 192, loss: 1.44, train acc: 95.61%, train avg acc: 93.28%
+Test 192, loss: 1.47, test acc: 92.59%, test avg acc: 89.45%
+Epoch Time: 80 s
+Train 193, loss: 1.44, train acc: 95.69%, train avg acc: 93.29%
+Test 193, loss: 1.47, test acc: 92.67%, test avg acc: 88.75%
+Epoch Time: 81 s
+Train 194, loss: 1.44, train acc: 95.49%, train avg acc: 93.11%
+Test 194, loss: 1.45, test acc: 92.67%, test avg acc: 88.73%
+Epoch Time: 82 s
+Train 195, loss: 1.44, train acc: 95.53%, train avg acc: 93.48%
+Test 195, loss: 1.46, test acc: 92.75%, test avg acc: 88.51%
+Epoch Time: 79 s
+Train 196, loss: 1.43, train acc: 96.11%, train avg acc: 93.97%
+Test 196, loss: 1.46, test acc: 92.87%, test avg acc: 89.40%
+Epoch Time: 81 s
+Train 197, loss: 1.44, train acc: 95.73%, train avg acc: 93.53%
+Test 197, loss: 1.48, test acc: 92.63%, test avg acc: 89.37%
+Epoch Time: 80 s
+Train 198, loss: 1.44, train acc: 95.69%, train avg acc: 93.52%
+Test 198, loss: 1.48, test acc: 92.06%, test avg acc: 88.78%
+Epoch Time: 80 s
+Train 199, loss: 1.44, train acc: 96.02%, train avg acc: 94.00%
+Test 199, loss: 1.46, test acc: 92.79%, test avg acc: 89.09%
+Epoch Time: 80 s
+Train 200, loss: 1.44, train acc: 95.89%, train avg acc: 93.49%
+Test 200, loss: 1.46, test acc: 92.75%, test avg acc: 89.85%
+Epoch Time: 80 s
+Train 201, loss: 1.44, train acc: 95.63%, train avg acc: 93.63%
+Test 201, loss: 1.46, test acc: 93.07%, test avg acc: 89.15%
+Epoch Time: 80 s
+Train 202, loss: 1.44, train acc: 95.51%, train avg acc: 93.00%
+Test 202, loss: 1.46, test acc: 93.07%, test avg acc: 89.29%
+Epoch Time: 79 s
+Train 203, loss: 1.44, train acc: 95.75%, train avg acc: 93.39%
+Test 203, loss: 1.47, test acc: 92.54%, test avg acc: 89.41%
+Epoch Time: 79 s
+Train 204, loss: 1.44, train acc: 95.55%, train avg acc: 93.36%
+Test 204, loss: 1.46, test acc: 92.95%, test avg acc: 89.27%
+Epoch Time: 82 s
+Train 205, loss: 1.43, train acc: 95.92%, train avg acc: 93.76%
+Test 205, loss: 1.47, test acc: 91.90%, test avg acc: 89.01%
+Epoch Time: 80 s
+Train 206, loss: 1.44, train acc: 95.83%, train avg acc: 93.57%
+Test 206, loss: 1.47, test acc: 92.79%, test avg acc: 89.77%
+Epoch Time: 80 s
+Train 207, loss: 1.44, train acc: 95.67%, train avg acc: 93.42%
+Test 207, loss: 1.46, test acc: 92.22%, test avg acc: 88.82%
+Epoch Time: 80 s
+Train 208, loss: 1.43, train acc: 96.19%, train avg acc: 94.35%
+Test 208, loss: 1.45, test acc: 93.03%, test avg acc: 89.43%
+Epoch Time: 79 s
+Train 209, loss: 1.42, train acc: 96.16%, train avg acc: 94.05%
+Test 209, loss: 1.45, test acc: 93.11%, test avg acc: 89.89%
+Epoch Time: 80 s
+Train 210, loss: 1.42, train acc: 96.22%, train avg acc: 94.26%
+Test 210, loss: 1.46, test acc: 92.75%, test avg acc: 89.53%
+Epoch Time: 81 s
+Train 211, loss: 1.42, train acc: 96.34%, train avg acc: 94.31%
+Test 211, loss: 1.46, test acc: 92.95%, test avg acc: 89.78%
+Epoch Time: 80 s
+Train 212, loss: 1.42, train acc: 96.26%, train avg acc: 94.16%
+Test 212, loss: 1.46, test acc: 92.83%, test avg acc: 89.40%
+Epoch Time: 80 s
+Train 213, loss: 1.42, train acc: 96.29%, train avg acc: 94.54%
+Test 213, loss: 1.46, test acc: 92.83%, test avg acc: 89.41%
+Epoch Time: 79 s
+Train 214, loss: 1.42, train acc: 96.22%, train avg acc: 94.17%
+Test 214, loss: 1.46, test acc: 93.23%, test avg acc: 89.43%
+Epoch Time: 80 s
+Train 215, loss: 1.42, train acc: 96.46%, train avg acc: 94.64%
+Test 215, loss: 1.45, test acc: 92.71%, test avg acc: 89.32%
+Epoch Time: 80 s
+Train 216, loss: 1.42, train acc: 96.27%, train avg acc: 94.45%
+Test 216, loss: 1.45, test acc: 92.79%, test avg acc: 89.36%
+Epoch Time: 81 s
+Train 217, loss: 1.42, train acc: 96.58%, train avg acc: 94.93%
+Test 217, loss: 1.46, test acc: 92.91%, test avg acc: 89.44%
+Epoch Time: 79 s
+Train 218, loss: 1.42, train acc: 96.57%, train avg acc: 94.75%
+Test 218, loss: 1.46, test acc: 92.99%, test avg acc: 90.18%
+Epoch Time: 81 s
+Train 219, loss: 1.42, train acc: 96.45%, train avg acc: 94.77%
+Test 219, loss: 1.46, test acc: 92.63%, test avg acc: 89.78%
+Epoch Time: 82 s
+Train 220, loss: 1.42, train acc: 96.47%, train avg acc: 94.66%
+Test 220, loss: 1.45, test acc: 92.95%, test avg acc: 89.18%
+Epoch Time: 80 s
+Train 221, loss: 1.42, train acc: 96.66%, train avg acc: 95.01%
+Test 221, loss: 1.45, test acc: 92.71%, test avg acc: 89.30%
+Epoch Time: 79 s
+Train 222, loss: 1.41, train acc: 96.83%, train avg acc: 95.17%
+Test 222, loss: 1.45, test acc: 92.91%, test avg acc: 89.86%
+Epoch Time: 80 s
+Train 223, loss: 1.42, train acc: 96.77%, train avg acc: 95.10%
+Test 223, loss: 1.45, test acc: 93.07%, test avg acc: 90.05%
+Epoch Time: 81 s
+Train 224, loss: 1.42, train acc: 96.58%, train avg acc: 94.67%
+Test 224, loss: 1.45, test acc: 92.71%, test avg acc: 89.13%
+Epoch Time: 79 s
+Train 225, loss: 1.41, train acc: 96.79%, train avg acc: 95.12%
+Test 225, loss: 1.46, test acc: 92.79%, test avg acc: 88.87%
+Epoch Time: 78 s
+Train 226, loss: 1.42, train acc: 96.35%, train avg acc: 94.68%
+Test 226, loss: 1.45, test acc: 92.87%, test avg acc: 89.24%
+Epoch Time: 79 s
+Train 227, loss: 1.42, train acc: 96.45%, train avg acc: 94.63%
+Test 227, loss: 1.45, test acc: 93.11%, test avg acc: 89.56%
+Epoch Time: 79 s
+Train 228, loss: 1.41, train acc: 96.65%, train avg acc: 95.03%
+Test 228, loss: 1.46, test acc: 92.59%, test avg acc: 88.95%
+Epoch Time: 80 s
+Train 229, loss: 1.42, train acc: 96.72%, train avg acc: 95.03%
+Test 229, loss: 1.45, test acc: 93.31%, test avg acc: 90.00%
+Epoch Time: 79 s
+Train 230, loss: 1.42, train acc: 96.48%, train avg acc: 94.72%
+Test 230, loss: 1.46, test acc: 92.75%, test avg acc: 89.64%
+Epoch Time: 82 s
+Train 231, loss: 1.42, train acc: 96.57%, train avg acc: 94.82%
+Test 231, loss: 1.46, test acc: 92.95%, test avg acc: 89.59%
+Epoch Time: 82 s
+Train 232, loss: 1.42, train acc: 96.68%, train avg acc: 94.86%
+Test 232, loss: 1.45, test acc: 92.91%, test avg acc: 89.11%
+Epoch Time: 79 s
+Train 233, loss: 1.41, train acc: 96.73%, train avg acc: 95.06%
+Test 233, loss: 1.45, test acc: 92.95%, test avg acc: 89.38%
+Epoch Time: 81 s
+Train 234, loss: 1.42, train acc: 96.56%, train avg acc: 94.75%
+Test 234, loss: 1.45, test acc: 93.03%, test avg acc: 88.92%
+Epoch Time: 79 s
+Train 235, loss: 1.41, train acc: 96.63%, train avg acc: 94.92%
+Test 235, loss: 1.45, test acc: 92.75%, test avg acc: 89.05%
+Epoch Time: 79 s
+Train 236, loss: 1.41, train acc: 96.79%, train avg acc: 95.26%
+Test 236, loss: 1.45, test acc: 92.67%, test avg acc: 88.80%
+Epoch Time: 79 s
+Train 237, loss: 1.42, train acc: 96.49%, train avg acc: 94.70%
+Test 237, loss: 1.45, test acc: 93.15%, test avg acc: 89.42%
+Epoch Time: 80 s
+Train 238, loss: 1.42, train acc: 96.67%, train avg acc: 95.25%
+Test 238, loss: 1.45, test acc: 92.67%, test avg acc: 88.90%
+Epoch Time: 80 s
+Train 239, loss: 1.41, train acc: 96.82%, train avg acc: 95.19%
+Test 239, loss: 1.45, test acc: 93.19%, test avg acc: 89.42%
+Epoch Time: 80 s
+Train 240, loss: 1.42, train acc: 96.61%, train avg acc: 94.77%
+Test 240, loss: 1.45, test acc: 92.87%, test avg acc: 89.52%
+Epoch Time: 81 s
+Train 241, loss: 1.41, train acc: 96.78%, train avg acc: 94.95%
+Test 241, loss: 1.46, test acc: 93.11%, test avg acc: 89.58%
+Epoch Time: 79 s
+Train 242, loss: 1.41, train acc: 96.62%, train avg acc: 94.86%
+Test 242, loss: 1.46, test acc: 92.46%, test avg acc: 89.19%
+Epoch Time: 78 s
+Train 243, loss: 1.41, train acc: 96.67%, train avg acc: 94.90%
+Test 243, loss: 1.45, test acc: 92.83%, test avg acc: 89.69%
+Epoch Time: 74 s
+Train 244, loss: 1.41, train acc: 96.61%, train avg acc: 94.91%
+Test 244, loss: 1.45, test acc: 92.79%, test avg acc: 88.87%
+Epoch Time: 74 s
+Train 245, loss: 1.41, train acc: 96.61%, train avg acc: 94.86%
+Test 245, loss: 1.45, test acc: 92.75%, test avg acc: 89.45%
+Epoch Time: 74 s
+Train 246, loss: 1.41, train acc: 96.89%, train avg acc: 95.25%
+Test 246, loss: 1.45, test acc: 92.46%, test avg acc: 88.77%
+Epoch Time: 74 s
+Train 247, loss: 1.41, train acc: 96.69%, train avg acc: 94.96%
+Test 247, loss: 1.45, test acc: 93.11%, test avg acc: 89.28%
+Epoch Time: 74 s
+Train 248, loss: 1.42, train acc: 96.49%, train avg acc: 94.54%
+Test 248, loss: 1.46, test acc: 92.95%, test avg acc: 89.79%
+Epoch Time: 74 s
+Train 249, loss: 1.41, train acc: 96.72%, train avg acc: 94.98%
+Test 249, loss: 1.45, test acc: 92.63%, test avg acc: 89.36%
+Epoch Time: 74 s
+Best test acc: 93.48%, test avg acc: 90.01%, epoch: 186
