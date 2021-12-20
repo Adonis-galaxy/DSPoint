@@ -38,7 +38,7 @@ Since the dataset is quite small (2468 for testing) and training performance on 
 
 Evaluate with our pre-trained model (already included in ./checkpoints):
 ``` 
-sh tesh.sh
+sh test.sh
 ```
 
 You should see the test accuracy at 93.48.
