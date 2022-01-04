@@ -3,9 +3,10 @@ Official implementation of "DSPoint: Dual-scale Point Cloud Recognition with Hig
 
 Paper link: https://arxiv.org/abs/2111.10332
 
-![DSPoint](./diagram.png)
-
 ![DSPoint_Poster](./Poster.png)
+
+
+
 
 
 ## Shape Classification
