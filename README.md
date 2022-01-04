@@ -5,6 +5,9 @@ Paper link: https://arxiv.org/abs/2111.10332
 
 ![DSPoint](./diagram.png)
 
+![DSPoint_Poster](./Poster.png)
+
+
 ## Shape Classification
 Shape Classification of [ModelNet-40](https://modelnet.cs.princeton.edu/) are given as an example of our method.
 
