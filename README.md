@@ -2,7 +2,7 @@
 Official implementation of "DSPoint: Dual-scale Point Cloud Recognition with High-frequency Fusion".
 
 Paper link: https://arxiv.org/abs/2111.10332
-
+Author: Renrui Zhang\*, Ziyao Zeng\*, Ziyu Guo\*, Xinben Gao, Kexue Fu, Jianbo Shi
 ![DSPoint_Poster](./Poster.png)
 
 
