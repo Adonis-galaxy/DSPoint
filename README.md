@@ -4,8 +4,10 @@ Official implementation of "DSPoint: Dual-scale Point Cloud Recognition with Hig
 **Paper link:** https://arxiv.org/abs/2111.10332
 
 **Author:** Renrui Zhang\*, Ziyao Zeng\*, Ziyu Guo\*, Xinben Gao, Kexue Fu, Jianbo Shi
-![DSPoint_Poster](./Poster.png)
 
+For Downstream Tasks and Error Mode Analysis: downstream tasks and error mode.pdf
+
+![DSPoint_Poster](./Poster.png)
 
 
 
