@@ -1,6 +1,8 @@
 # DSPoint
 Official implementation of "DSPoint: Dual-scale Point Cloud Recognition with High-frequency Fusion".
 
+Accepted by SMC 2023
+
 **Paper link:** https://arxiv.org/abs/2111.10332
 
 **Author:** Renrui Zhang\*, Ziyao Zeng\*, Ziyu Guo\*, Xinben Gao, Kexue Fu, Jianbo Shi
